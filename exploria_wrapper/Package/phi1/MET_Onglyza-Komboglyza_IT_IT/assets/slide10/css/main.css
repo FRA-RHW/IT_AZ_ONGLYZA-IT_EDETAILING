@@ -1,0 +1,34 @@
+/* - - --*/
+/* - - --*/
+
+
+#pop1{
+	display: none;
+}
+#pop1{
+	z-index:1000;
+}
+#box1{
+	position:absolute;
+	left:50px;
+	top:113px;
+	background: url(../images/35_1.png) left top no-repeat;
+	width: 597px;
+	height: 453px;	
+}
+#box2{
+	position:absolute;
+	left:680px;
+	top:170px;
+	background: url(../images/35_2.png) left top no-repeat;
+	width: 226px;
+	height: 305px;	
+}
+#box3{
+	position:absolute;
+	left:245px;
+	bottom:142px;
+	background: url(../images/35_3.png) left top no-repeat;
+	width:400px;
+	height: 72px;	
+}

@@ -1,0 +1,56 @@
+/* - - --*/
+/* - - --*/
+#screen-container{
+	position:absolute;
+	width:1024px;
+	height:768px;
+	left:0px;
+	top:0px;
+	background: url(../images/sfondo.png) left top no-repeat;
+	overflow:hidden;
+}
+.tab{
+	position:absolute;
+	width:973px;
+	height:567px;
+	left:7px;
+	top:91px;
+	background: url(../images/tab.png) no-repeat;
+}
+#pop1{
+	display: none;
+}
+#pop2{
+	display: none;
+}
+span{
+	color:#ffffff;
+}
+h1{
+	margin:7px 0 0 31px;
+	font-size:27px;
+}
+sup{
+	font-size:20px;
+	color:#ffffff;
+}
+
+#wrapperNew{
+	position:absolute;
+	left:130px;
+	top:170px;
+	width:805px;
+	height:350px;
+ 	overflow:hidden;
+	display: none;
+	z-index:200;
+	
+	
+}
+
+#scrollerNew{
+	
+	width:792px;
+	height:791px;
+	
+}

@@ -1,0 +1,64 @@
+/* - - --*/
+/* - - --*/
+
+#pop1{
+	display: none;
+}
+#box1{
+	position:absolute;
+	width:420px;
+	height:268px;
+	left:140px;
+	top:115px;
+	background: url(../images/50_box2.png) no-repeat;
+}
+#box2{
+	position:absolute;
+	width:351px;
+	height:410px;
+	right:70px;
+	top:122px;
+	background: url(../images/49_box2.png) no-repeat;
+}
+#box3{
+	position:absolute;
+	width:384px;
+	height:38px;
+	left:270px;
+	bottom:175px;
+	background: url(../images/50_box.png) no-repeat;
+}
+#box4{
+	position:absolute;
+	width:187px;
+	height:58px;
+	right:20px;
+	bottom:105px;
+	background: url(../images/49_box3.png) no-repeat;
+}
+#box5{
+	position:absolute;
+	width:334px;
+	height:189px;
+	left:260px;
+	top:353px;
+	z-index:10px;
+	background: url(../images/confezione1.png) no-repeat;
+}
+#left{
+	position: absolute;
+	width: 11px;
+	height: 368px;
+	left: 20px;
+	top: 115px;
+	background: url(../images/left.png) no-repeat;
+	}
+
+#bottom{
+	position: absolute;
+	width: 345px;
+	height: 20px;
+	left: 356px;
+	top: 628px;
+	background: url(../images/bottom.png) no-repeat;
+	}

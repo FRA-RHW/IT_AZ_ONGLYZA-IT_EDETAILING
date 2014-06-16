@@ -1,0 +1,180 @@
+/* - - --*/
+/* - - --*/
+
+
+#pop1, #pop2, #pop3, #pop4 {
+	display: none;
+}
+
+h1{
+  margin:0 0 0 64px;
+}
+
+#anim1{
+	position:absolute;
+	left:106px;
+	top:114px;
+	width:330px;
+	height:316px;
+	background:url("../images/18_tab1.png") left top no-repeat;
+	opacity:0;
+}
+#anim2{
+	position:absolute;
+	left:456px;
+	top:114px;
+	width:330px;
+	height:313px;
+	background:url("../images/18_tab2.png") left top no-repeat;
+	opacity:0;
+	
+	/*-webkit-transition-property:height;
+	-webkit-transition-duration:0.6s;
+	-webkit-transition-timing-function:linear;
+	-webkit-transition-delay:0.9s;*/
+
+}
+#anim3{
+	position:absolute;
+	right:45px;
+	top:170px;
+	width:180px;
+	height:81px;
+	overflow:hidden;
+	background:url("../images/18_tab3.png") left top no-repeat;
+	opacity:0;
+}
+
+#anim3a{
+	position:absolute;
+	right:45px;
+	bottom:298px;
+	width:180px;
+	height:298px;
+	overflow:hidden;
+	display:none;
+	background:url("../images/20_tab.png") left top no-repeat;
+
+}
+
+
+#anim4{
+	position:absolute;
+	left:465px;
+	top:172px;
+	width:104px;
+	height:65px;
+	background:url("../images/18_numeri_1.png") left bottom no-repeat;
+	opacity:0;
+}
+
+#anim5{
+	position:absolute;
+	left:465px;
+	top:300px;
+	width:102px;
+	height:79px;
+	background:url("../images/18_numeri_3.png") left bottom no-repeat;
+	opacity:0;
+}
+
+#anim6{
+	position:absolute;
+	top:166px;
+	left:660px;
+	width:13px;
+	height:31px;
+	z-index:10;
+	background:url("../images/18_omino_verde.png") left bottom no-repeat;
+	opacity:0;
+	
+	-webkit-animation-name: anim6;
+	-webkit-animation-duration: 1.6s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 2.7s;
+
+}
+@-webkit-keyframes anim6
+{
+0%	{left:589px;}
+50% {left: 728px;}
+100% {left: 660px !important;}
+}
+
+
+#anim6a{
+	position:absolute;
+	top:166px;
+	left:585px;
+	width:0;
+	z-index:5;
+	display:block;
+	height:34px;
+	background:url("../images/18_omini_grigi.png") left bottom no-repeat;
+	
+	-webkit-transition-property:width;
+	-webkit-transition-duration:0.6s;
+	-webkit-transition-timing-function:linear;
+	-webkit-transition-delay:2.7s;
+
+}
+
+
+#anim7a{
+	position:absolute;
+	left:592px;
+	top:292px;
+	width:152px;
+	z-index:5;
+	display:block;
+	height:34px;
+	background:url("../images/18_omini_verdi.png") left bottom no-repeat;
+	opacity:0;	
+
+}
+
+#anim7{
+	position:absolute;
+	left:592px;
+	top:292px;
+	width:0;
+	height:34px;
+	background:url("../images/18_omini_grigi.png") left bottom no-repeat;
+	
+	-webkit-transition-property:width;
+	-webkit-transition-duration:0.6s;
+	-webkit-transition-timing-function:linear;
+	-webkit-transition-delay:2.7s;
+}
+#anim8{
+	position:absolute;
+	top:198px;
+	left:585px;
+	width:169px;
+	height:67px;
+	background:url("../images/18_numeri_2.png") left bottom no-repeat;
+	opacity:0;
+}
+#anim9{
+	position:absolute;
+	top:320px;
+	left:585px;
+	width:166px;
+	height:70px;
+	background:url("../images/18_numeri_4.png") left bottom no-repeat;
+	opacity:0;
+}
+
+#anim10{
+	position:absolute;
+	left:105px;
+	top:440px;
+	width:0;
+	height:109px;
+	background:url("../images/18_tab4.png") left bottom no-repeat;
+	
+	-webkit-transition-property:width;
+	-webkit-transition-duration:0.6s;
+	-webkit-transition-timing-function:linear;
+	-webkit-transition-delay:4.5s;
+}

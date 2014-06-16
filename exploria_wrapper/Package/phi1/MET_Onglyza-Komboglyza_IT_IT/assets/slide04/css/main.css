@@ -1,0 +1,45 @@
+/* - - --*/
+/* - - --*/
+
+#anim1{
+	position:absolute;
+	left:97px;
+	top:70px;
+	width:582px;
+	height:582px;
+	background:url("../images/17_box1.png") left top no-repeat;
+	opacity:0;
+}
+
+#anim2{
+	position:absolute;
+	left:406px;
+	top:70px;
+	width:582px;
+	height:582px;
+	background:url("../images/17_box2.png") left top no-repeat;
+	opacity:0;
+}
+
+#anim3{
+	position:absolute;
+	left:227px;
+	top:524px;
+	width:575px;
+	height:0;
+	background:url("../images/17_tab2.png") left top no-repeat;
+	
+	-webkit-transition-property:height;
+	-webkit-transition-duration:0.4s;
+	-webkit-transition-timing-function:linear;
+	-webkit-transition-delay:2s;
+
+}
+.tab{
+	position:absolute;
+	left:106px;
+	bottom:248px;
+	width:806px;
+	height:397px;	
+	background:url("../images/17_1.png") left top no-repeat;
+}

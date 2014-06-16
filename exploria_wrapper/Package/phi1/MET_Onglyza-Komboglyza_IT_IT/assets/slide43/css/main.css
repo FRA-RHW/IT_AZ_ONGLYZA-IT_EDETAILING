@@ -1,0 +1,31 @@
+/* - - --*/
+/* - - --*/
+
+#screen-container{
+	position:absolute;
+	width:1024px;
+	height:768px;
+	left:0px;
+	top:0px;
+	overflow:hidden;
+	background: url(../images/40_sfondo_cuore.png) no-repeat;
+}
+
+#box1{
+	position:absolute;
+	width:509px;
+	height:416px;
+	left:55px;
+	top:120px;
+	z-index:100;
+	background: url(../images/43_box1.png) no-repeat;
+}
+#box2{
+	position:absolute;
+	width:384px;
+	height:455px;
+	left:600px;
+	top:125px;
+	z-index:100;
+	background: url(../images/43_box2.png) no-repeat;
+}

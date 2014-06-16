@@ -1,0 +1,49 @@
+/* - - --*/
+/* - - --*/
+
+h1{
+	margin-top:0;
+}
+
+#anim1{
+	position:absolute;
+	left:97px;
+	top:67px;
+	width:582px;
+	height:582px;
+	background:url("../images/23_1.png") left top no-repeat;
+	opacity:0;
+}
+
+#anim2{
+	position:absolute;
+	left:406px;
+	top:67px;
+	width:582px;
+	height:582px;
+	background:url("../images/23_2.png") left top no-repeat;
+	opacity:0;
+}
+
+#anim3{
+	position:absolute;
+	left:227px;
+	top:524px;
+	width:588px;
+	height:0;
+	background:url("../images/23_4.png") left top no-repeat;
+	
+	-webkit-transition-property:height;
+	-webkit-transition-duration:0.4s;
+	-webkit-transition-timing-function:linear;
+	-webkit-transition-delay:2s;
+
+}
+.tab{
+	position:absolute;
+	left:106px;
+	bottom:248px;
+	width:807px;
+	height:396px;	
+	background:url("../images/23_3.png") left top no-repeat;
+}

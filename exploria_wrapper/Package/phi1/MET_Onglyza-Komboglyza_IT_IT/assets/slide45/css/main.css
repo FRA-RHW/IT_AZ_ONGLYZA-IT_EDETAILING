@@ -1,0 +1,11 @@
+/* - - --*/
+/* - - --*/
+
+#box1{
+	position:absolute;
+	width:958px;
+	height:488px;
+	left:10px;
+	top:118px;
+	background: url(../images/48_box.png) no-repeat;
+}

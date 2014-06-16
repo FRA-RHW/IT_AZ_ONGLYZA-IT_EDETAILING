@@ -1,0 +1,37 @@
+/* - - --*/
+/* - - --*/
+
+#pop1{
+	display: none;
+}
+#box1{
+	position:absolute;
+	width:1009px;
+	height:547px;
+	left:5px;
+	top:122px;
+	background: url(../images/slide15.png) no-repeat;
+}
+h1{
+	margin-left:30px;
+}
+
+#wrapperNew{
+	position:absolute;
+	left:130px;
+	top:170px;
+	width:805px;
+	height:350px;
+ 	overflow:hidden;
+	display: none;
+	z-index:200;
+	
+	
+}
+
+#scrollerNew{
+	
+	width:792px;
+	height:791px;
+	
+}

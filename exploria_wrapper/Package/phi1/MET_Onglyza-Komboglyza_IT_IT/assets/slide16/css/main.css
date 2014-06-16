@@ -1,0 +1,19 @@
+/* - - --*/
+/* - - --*/
+
+
+#pop1, #pop2, #pop3{
+	display: none;
+}
+
+h1{
+	margin-top:0;
+}
+#box1{
+	position:absolute;
+	width:709px;
+	height:316px;
+	left:166px;
+	top:167px;
+	background: url(../images/44_box.png) no-repeat;
+}

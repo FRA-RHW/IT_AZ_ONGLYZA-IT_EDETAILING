@@ -1,0 +1,24 @@
+/* - - --*/
+/* - - --*/
+
+#screen-container{
+	position:absolute;
+	width:1024px;
+	height:768px;
+	left:0px;
+	top:0px;
+	overflow:hidden;
+	background: url(../images/40_sfondo_cuore.png) no-repeat;
+}
+h1{
+	margin-top:0;
+}
+#box1{
+	position:absolute;
+	width:584px;
+	height:477px;
+	left:310px;
+	top:130px;
+	z-index:100;
+	background: url(../images/41_box.png) no-repeat;
+}

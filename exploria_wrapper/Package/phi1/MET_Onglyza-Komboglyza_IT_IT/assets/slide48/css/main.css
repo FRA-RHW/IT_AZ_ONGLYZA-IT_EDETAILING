@@ -1,0 +1,11 @@
+/* - - --*/
+/* - - --*/
+
+
+#screen-container{
+	z-index:80;
+}
+
+#pop1, #pop2, #pop3 {
+display: none;
+}

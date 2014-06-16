@@ -1,0 +1,6 @@
+
+@interface TappableScrollView : UIScrollView 
+	{
+	}
+
+@end

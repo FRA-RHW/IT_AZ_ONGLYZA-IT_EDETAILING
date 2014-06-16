@@ -1,0 +1,21 @@
+/* - - --*/
+/* - - --*/
+
+#screen-container{
+	position:absolute;
+	width:1024px;
+	height:768px;
+	left:0px;
+	top:0px;
+	overflow:hidden;
+	background: url(../images/sfondo_biogr.png) no-repeat;
+}
+
+#box1{
+	position:absolute;
+	width:900px;
+	height:530px;
+	left:64px;
+	top:115px;
+	background: url(../images/53.png) no-repeat;
+}

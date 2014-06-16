@@ -1,0 +1,157 @@
+/* - - --*/
+/* - - --*/
+
+
+
+#btn-play{
+	position: absolute;
+	bottom: 331px;
+	left: 919px;
+	width: 60px;
+	height: 40px;
+	
+}
+
+
+
+#btn-pause{
+	position: absolute;
+	bottom: 245px;
+	left: 919px;
+	width: 60px;
+	height: 40px;
+	
+}
+
+#btn-stop{
+	position: absolute;
+	bottom: 204px;
+	left: 919px;
+	width: 60px;
+	height: 40px;
+
+}
+
+#video{
+	
+	overflow: hidden;
+	
+}
+
+#videoid{
+	
+	width: 714px;
+	height: 402px;
+	
+}
+
+
+#screen-container{
+	position:absolute;
+	left:0;
+	top:0;
+	width:1024px;
+	height:768px;
+	background:url(../../../global/images/bg.png) left top no-repeat;
+}
+
+
+#anim1{
+	position:absolute;
+	left:162px;
+	top:122px;
+	width:609px;
+	height:285px;
+	background:url("../images/9_box1.png") left top no-repeat;
+	opacity:0;
+}
+#anim2{
+	position:absolute;
+	left:291px;
+	top:328px;
+	width:407px;
+	height:0;
+	background:url("../images/9_box2.png") left top no-repeat;
+	
+	-webkit-transition-property:height;
+	-webkit-transition-duration:0.6s;
+	-webkit-transition-timing-function:linear;
+	-webkit-transition-delay:0.9s;
+
+}
+#anim3{
+	position:absolute;
+	left:118px;
+	bottom:9px;
+	width:781px;
+	height:573px;
+	background:url("../images/9_ombra.png") left top no-repeat;
+	opacity:0;
+}
+
+#anim4{
+	position:absolute;
+	right:0;
+	top:140px;
+	width:305px;
+	height:440px;
+	background:url("../images/9_box3.png") left top no-repeat;
+	opacity:0;
+}
+
+
+#pop1, #pop2, #pop3, #pop4, #pop5 {
+	/*background: url(../images/Onglyza_parte1_def-14.png) left top no-repeat;
+	width: 1024px;
+	height: 768px;*/
+	display: none;
+}
+
+#pop1 img, #pop2 img, #pop3 img {
+	z-index:1000;
+}
+#pop4 img, #pop5 img {
+	z-index:1000;
+}
+
+#pop4a {
+	background: url(../images/15_pop.png) left top no-repeat;
+	width: 1024px;
+	height: 768px;
+	z-index:2000;
+	position:absolute;
+	left:0;
+	top:0;
+	display:none;
+}
+#pop4b {
+	background: url(../images/16_pop.png) left top no-repeat;
+	width: 1024px;
+	height: 768px;
+	z-index:2000;
+	position:absolute;
+	left:0;
+	top:0;
+	display:none;
+}
+#pop4c {
+	background: url(../../../global/images/bg.png) left top no-repeat;
+	width: 1024px;
+	height: 768px;
+	z-index:0;
+	position:absolute;
+	left:0;
+	top:0;
+	display:none;
+}
+
+#pop4a img, #pop4b img {
+	width: 1024px;
+	height: 768px;
+
+}
+h1{margin-left:40px;}
+
+
+
+

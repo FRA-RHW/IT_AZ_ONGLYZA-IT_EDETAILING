@@ -1,0 +1,25 @@
+/* - - --*/
+/* - - --*/
+
+
+#pop1, #pop2{
+	display: none;
+}
+
+#screen-container{
+	position:absolute;
+	width:1024px;
+	height:768px;
+	left:0px;
+	top:0px;
+	overflow:hidden;
+	background: url(../images/40_sfondo.png) no-repeat;
+}
+#box1{
+	position:absolute;
+	width:557px;
+	height:380px;
+	left:250px;
+	top:186px;
+	background: url(../images/44_box.png) no-repeat;
+}

@@ -1,0 +1,56 @@
+/* - - --*/
+/* - - --*/
+#screen-container{
+	position:absolute;
+	left:0;
+	top:0;
+	width:1024px;
+	height:768px;
+	background:url("../images/bgBig_.jpg") left top no-repeat;
+}
+#pop1 {
+	display: none;
+}
+#anim1{
+	position:absolute;
+	left:420px;
+	bottom:249px;
+	width:96px;
+	height:0;
+	background:url("../images/colonna1.png") left bottom no-repeat;
+	
+	-webkit-transition-property:height;
+	-webkit-transition-duration:0.3s;
+	-webkit-transition-timing-function:linear;
+	-webkit-transition-delay:1s;
+}
+#anim2{
+	position:absolute;
+	left:541px;
+	bottom:249px;
+	width:106px;
+	height:0;
+	background:url("../images/colonna2.png") left bottom no-repeat;
+	
+	-webkit-transition-property:height;
+	-webkit-transition-duration:0.3s;
+	-webkit-transition-timing-function:linear;
+	-webkit-transition-delay:2s;
+}
+#anim3{
+	position:absolute;
+	left:467px;
+	top:270px;
+	width:122px;
+	height:200px;
+	background:url("../images/text2.png") left top no-repeat;
+	opacity:0;
+}
+.tab{
+	position:absolute;
+	left:273px;
+	bottom:182px;
+	width:468px;
+	height:400px;	
+	background:url("../images/grafico.png") left top no-repeat;
+}

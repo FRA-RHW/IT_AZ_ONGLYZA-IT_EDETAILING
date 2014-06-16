@@ -1,0 +1,14 @@
+/* - - --*/
+/* - - --*/
+
+#pop1{
+	display:none;
+}
+.tab{
+	position:absolute;
+	left:65px;
+	top:151px;
+	width:921px;
+	height:439px;	
+	background:url("../images/tab07.png") left top no-repeat;
+}

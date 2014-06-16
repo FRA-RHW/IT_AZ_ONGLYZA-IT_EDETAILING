@@ -1,0 +1,60 @@
+/* - - --*/
+/* - - --*/
+
+
+#pop1 {
+	display: none;
+}
+
+#anim1{
+	position:absolute;
+	left:42px;
+	top:130px;
+	width:946px;
+	height:213px;
+	background:url("../images/tab1.png") left top no-repeat;
+	opacity:0;
+}
+#anim2{
+	position:absolute;
+	left:290px;
+	top:348px;
+	width:383px;
+	height:317px;
+	overflow:hidden;
+	background:url("../images/tab2.png") left top no-repeat;
+	opacity:0;
+	
+	-webkit-animation-name: anim2;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-delay: 1.8s;
+}
+
+@-webkit-keyframes anim2
+{
+0%	{
+
+	-webkit-transform: scale(0,0);
+}
+100% {
+
+	-webkit-transform: scale(1.0,1.0);
+}
+}
+
+
+
+#anim3{
+	position:absolute;
+	right:10px;
+	bottom:166px;
+	width:343px;
+	height:208px;
+	background:url("../images/tab3.png") left top no-repeat;
+	opacity:0;
+
+}
+
+
+

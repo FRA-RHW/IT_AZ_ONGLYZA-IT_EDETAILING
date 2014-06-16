@@ -1,0 +1,179 @@
+/*fonts*/
+@font-face {
+  font-family: 'ITCSouvenirDemi';
+  src: url(../fonts/souvenirdemi.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'ITCSouvenirMedium';
+  src: url(../fonts/souvenirmedium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'ITCSouvenirlight';
+  src: url(../fonts/souvenirlight.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'ITCSouvenirlightItalic';
+  src: url(../fonts/souvenirlightitalic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'ITCSouvenirDemiItalic';
+  src: url(../fonts/souvenirdemiitalic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'ITCSouvenirMediumItalic';
+  src: url(../fonts/souvenirmediumitalic.otf) format("opentype");
+}
+
+
+@font-face {
+  font-family: 'ITCSouvenirBold';
+  src: url(../fonts/souvenirbold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'TradeGothicRegular';
+  src: url(../fonts/tradegothic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'TradeGothicCondensed';
+  src: url(../fonts/tradegothiccondeighteen.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'TradeGothicBoldCondensed';
+  src: url(../fonts/tradegothicboldcondtwenty.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'TradeGothicBold';
+  src: url(../fonts/tradegothicbold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'TradeGothicita';
+  src: url(../fonts/tradegothiccondeighteenobl.otf) format("opentype");
+}
+
+/*Styles généraux*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: #005350;
+	
+	/*
+	line-height:100%; 
+	position:absolute;*/
+}
+
+body{ background-color:#fff;}
+
+h1{
+  font-family: 'ITCSouvenirMedium';
+  color:#ffffff;
+  margin:23px 0 0 64px;
+  font-size:34px;
+}
+p{
+	color:#585857;
+	font-size:20px;
+	font-family: 'ITCSouvenirMedium';
+}
+span{
+	color:#52887f;
+}
+h1 sup{
+	color:#ffffff;
+	font-size:20px;
+}
+h1 sub{
+	color:#ffffff;
+	font-size:18px;
+}
+#screen-container{
+	position:absolute;
+	width:1024px;
+	height:768px;
+	left:0px;
+	top:0px;
+	background: url(../../global/images/bg.png) left top no-repeat;
+	overflow:hidden;
+}
+.off{
+	opacity:0;
+}
+.on{
+	opacity:1;
+}
+
+
+#logoBottom{	position:absolute;
+	width:149px;
+	height:99px;
+	left:840px;
+	top:660px;
+	
+	background-image:url(../../global/_images/onglyza_bottom.png);}
+	
+#btnRef{	position:absolute;
+	width:45px;
+	height:35px;
+	right:-1px;
+	top:628px;
+	
+	background-image:url(../../global/_images/ref.png);
+	z-index:100;}
+	
+#btnRef.on{background-image:url(../../global/_images/ref_sel.png);}	
+
+#S_Top{	position:absolute;
+	width:54px;
+	height:55px;
+	left:950px;
+	top:20px;
+	
+	background-image:url(../../global/_images/s.png);}
+
+#boxReferences{position: absolute; top:0; right:-1026px; width:1024px; height:663px; z-index:100; background-color:#008e7c; border-left:2px solid #fff; z-index:99; -webkit-transform:translate3d(0,0,0)}
+#boxReferencesContents{padding:20px;}
+
+.topRef{ font-size:200%; color:#fff;  font-family: "TradeGothicBold";  padding:10px 0 20px 0;}
+.topRef span{color:#fff; }
+
+#TextRef{ height:550px; font-size:100%;  font-family: "TradeGothicCondensed"; -webkit-transform:translate3d(0,0,0);
+
+ -webkit-column-count:1;
+       -webkit-column-gap: 20px;
+	   width:350px; text-align:justify;
+  }
+
+
+
+#TextRef.two-col {
+    
+       -webkit-column-count:2;
+       -webkit-column-gap: 20px;
+	   width:650px; text-align:justify;
+
+	   
+}
+#TextRef.three-col {
+      
+       -webkit-column-count: 3;
+       -webkit-column-gap: 20px;
+	   
+	    width:850px; text-align:justify;
+}
+
+
+ol.olRef{ margin-left:20px }
+.olRef li{ margin:0; padding-bottom:30px; color:#fff;}
+
+.footNotes{font-family: "TradeGothicCondensed";
+ font-size: 14px; color:#000;}

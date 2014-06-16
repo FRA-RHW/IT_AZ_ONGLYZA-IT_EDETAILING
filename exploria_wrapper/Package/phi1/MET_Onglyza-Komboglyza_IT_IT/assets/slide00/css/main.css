@@ -1,0 +1,83 @@
+/* - - --*/
+
+#screen-container{
+	position:absolute;
+	width:1024px;
+	height:768px;
+	left:0px;
+	top:0px;
+	background: url(../images/sfondo.png) no-repeat;
+}
+#anim1{
+	position:absolute;
+	top:292px;
+	left:365px;
+	width:257px;
+	opacity:0;
+	height:301px;
+	background:url("../images/doc.png") left top no-repeat;
+	pointer-events:none;
+}
+
+#anim2{
+	position:absolute;
+	top:20px;
+	left:0;
+	width:523px;
+	height:510px;
+	opacity:0;
+	z-index:10;
+	background:url("../images/1_scudo_verde.png") left top no-repeat;
+	pointer-events:none;
+	
+	-webkit-animation-name: anim2;
+	-webkit-animation-duration: 1.6s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 1.6s;
+
+}
+@-webkit-keyframes anim2
+{
+0%	{top:20px;}
+50% {top: 200px;}
+100% {top: 90px;}
+}
+
+
+#anim3{
+	position:absolute;
+	top:20px;
+	left:600px;
+	width:523px;
+	height:510px;
+	opacity:0;
+	z-index:10;
+	background:url("../images/1_scudo_viola_scudo.png") left top no-repeat;
+	pointer-events:none;
+	
+	-webkit-animation-name: anim3;
+	-webkit-animation-duration: 1.6s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 1.6s;
+
+}
+@-webkit-keyframes anim3
+{
+0%	{top:20px;height:0%;}
+50% {top: 200px;height:80%;}
+100% {top: 90px;height:100%;}
+}
+
+.aifa{
+	position: absolute;
+left: -305px;
+top: 215px;
+width: 700px;
+height: 80px;
+-webkit-transform: rotate(-90deg);
+color: #222;
+z-index: 1000000;
+font-size: 14px;
+font-family:'TradeGothicCondensed';
+}
+

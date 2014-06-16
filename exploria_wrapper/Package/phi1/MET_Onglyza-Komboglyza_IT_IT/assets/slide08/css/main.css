@@ -1,0 +1,65 @@
+/* - - --*/
+/* - - --*/
+
+#screen-container{
+	position:absolute;
+	width:1024px;
+	height:768px;
+	left:0px;
+	top:0px;
+	overflow:hidden;
+	background: url(../images/25_sfondo.png) no-repeat;
+}
+.tab{
+	position:absolute;
+	width:571px;
+	height:420px;
+	left:172px;
+	top:171px;
+	background: url(../images/25_box.png) no-repeat;
+}
+#step1{
+	position:absolute;
+	width:799px;
+	height:102px;
+	left:158px;
+	top:279px;
+	background: url(../images/25_tab1.png) no-repeat;
+
+}
+#step2{
+	position:absolute;
+	width:799px;
+	height:104px;
+	left:158px;
+	top:331px;
+	background: url(../images/25_tab2.png) no-repeat;
+	display:none;
+}
+#step3{
+	position:absolute;
+	width:799px;
+	height:101px;
+	left:158px;
+	top:381px;
+	background: url(../images/25_tab3.png) no-repeat;
+	display:none;
+}
+#step4{
+	position:absolute;
+	width:795px;
+	height:100px;
+	left:158px;
+	top:425px;
+	background: url(../images/25_tab4.png) no-repeat;
+	display:none;	
+}
+#step5{
+	position:absolute;
+	width:608px;
+	height:66px;
+	left:158px;
+	top:499px;
+	background: url(../images/25_tab5.png) no-repeat;
+	display:none;
+}

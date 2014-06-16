@@ -1,0 +1,19 @@
+/* - - --*/
+/* - - --*/
+
+#pop1, #pop2 {
+	display: none;
+}
+
+#anim1{
+position:absolute;left:66px;top:122px;width:920px;height:252px;
+background:url("../images/6_tab2.png") left top no-repeat;
+opacity:0;
+}
+
+#anim2{
+position:absolute;right:54px;bottom:248px;width:400px;height:120px;
+background:url("../images/6_tab4.png") left top no-repeat;
+opacity:0;
+}
+h1{margin-top:0px;}
